@@ -1,12 +1,21 @@
 // Constructors are called when an object of a class is created
+// Constructors can have parameters or have no parameters
 
 class Intern{
 
-	constructor(){
-		console.log("Hello! I'm the constructor");
+
+	constructor(a,b){
+		this.firstNumber = a;
+		this.secondNumber = b;
+	}
+
+	add(){
+		let result = this.firstNumber + this.secondNumber;
+		console.log(result);
 	}
 }
 
-// Create new object
+// Create new object and call method
 
-new Intern();
+var Sudeepto = new Intern(10,15);
+Sudeepto.add();
