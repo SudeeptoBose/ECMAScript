@@ -1,3 +1,5 @@
+// This helps identify erros
+
 "use strict";
 
 myName();
