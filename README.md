@@ -1,2 +1,2 @@
 # ECMAScript
- Learning ECMAScript from Rabbil Hasan
+ Learning ECMAScript
